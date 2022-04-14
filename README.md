@@ -1,1 +1,1 @@
-# Landing-page
+For this project, I will utilise html and css to create a basic landing page. The goal is to refresh my memory on different html and css topics.

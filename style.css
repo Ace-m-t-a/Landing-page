@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+ul {
+    margin: 0px;
+    padding:0;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li a {
+    display: block;
+    padding: 16px;
+}
+
+img {
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.container-1 {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub-container-1 p {
+   width: 500px;
+
+}
+
+.sub-container-1 button{
+    background-color:#3882F6 ;
+    border-radius: 15%;
+    border: 1px solid white;
+    color: white;
+}
+
+.container-2 img {
+    width: 300px;
+}
+.container-2 {
+    flex-shrink: 0;
+    background-color: #1F2937;
+    color: white;
+    padding-top:32px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3 .text {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3 img{
+    border: 1px solid blue;
+}
+
+.container-3 {
+    margin-top: 16px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.container-4 {
+    background-color: #E5E7EB;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+
+}
+
+.container-4 p {
+    font-size: 24px;
+    width: 650px;
+}
+
+.new-container {
+    padding-bottom: 70px;
+    margin-bottom: 60px;
+    background-color: #E5E7EB;
+}
+
+.thor {
+    margin-left: 800px;
+    font-weight: 900;
+
+}
+
+.container-5 {
+    background-color:#3882F6;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    margin: auto;
+  width: 50%;
+  border-radius: 15px;
+
+    
+}
+
+.sub-container-2 .new-button {
+    display: flex;
+    flex: 1;
+    background-color:#3882F6;
+}
+
+.container-5 button {
+    border: 1px solid white;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 25px;
+    border-radius: 15%;
+    color: white;
+    background-color:#3882F6 ;
+}
+
+.footer {
+    background-color: #1F2937;
+    margin-top: 50px;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
